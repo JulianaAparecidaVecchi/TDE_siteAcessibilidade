@@ -1,0 +1,139 @@
+body{
+    font-family:Arial, Helvetica, sans-serif ;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: 2px;
+}
+
+
+header{
+    background-color: rgb(155, 155, 155);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+header ul li a{
+  color:black; 
+  text-decoration: none; 
+  margin: 50px;
+  font-size: 17px;
+}
+
+header ul li a:hover{
+    background-color: white;
+    border-radius: 20px;
+    padding: 2px;
+}
+
+.home {
+    color: black;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    font-size: 30px;
+}
+
+.home:hover {
+    background-color: white;
+    border-radius: 20px;
+    transition: 0.5s;
+    padding: 10px;
+}
+
+.home img{
+    margin: 0px 15px;
+}
+
+#container_logo:hover{
+    background-color: white;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+#container_acess{
+    background-color: black;
+    padding: 20px 30px;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    
+}
+
+#v{
+    margin: 5px;
+    font-size: 20px;
+}
+
+#container_acess_aberto{
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: black;
+    z-index: 1000;
+    display: none;
+    flex-direction: column;
+}
+
+#container_acess_aberto button{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    font-size: 16px;
+}
+
+#x{
+    position: absolute;
+    left:0;
+    padding: 2px;
+    border: solid 1px white;
+    cursor: pointer;
+
+}
+
+
+footer{
+    background-color: rgb(155, 155, 155);
+    display: flex;
+    flex-direction: column;
+    font-size:16px ;
+    text-align: center;
+    padding: 15px;
+    font-weight: 600;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+    
+}
+
+.container_redes{
+    display: flex;
+}
+
+
+.container_redes img{
+    width:35px;
+    margin: 8px;
+}
+
+.container_redes img:hover {
+    background-color: white;
+    padding: 5px;
+    border-radius: 50px;
+    transition: 0.5s;
+}
+
+#container_acess_aberto button{
+    cursor: pointer;
+}

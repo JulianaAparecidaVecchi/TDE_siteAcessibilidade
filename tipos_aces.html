@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/iconeacs.png" type="image/x-icon">
+    <link rel="stylesheet" href="style/componentes.css">
+    <link rel="stylesheet" href="style/tipos_acess.css">
+    <title>Acessibilidade</title>
+</head>
+<body>
+    <header>
+        <button onclick="abrirAcess()" id="container_acess"><img src="imagens/iconaces.png" alt="Icone da acessibilidade"> <h1 id="v">V</h1></button>
+        <div class="container_logo">
+            <a class="home" href="index.html">Home</a>
+        </div>
+        <div>
+            <ul>
+                <li><a href="tipos_aces.html">Tipos de acessibilidade</a></li>
+                <li><a href="rec_acess.html">Recursos de acessibilidade</a></li>
+                <li><a href="acess_web.html">Acessibilidade na Web</a></li>
+                <li><a href="livros_acess.html">Livros sobre acessibilidade</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div id="container_acess_aberto">
+            <button id="x" onclick="fecharAcess()">
+                X
+            </button>
+            <button onclick="aumentarLetra(2)">
+                A+
+                Aumentar letras
+            </button >
+            <button onclick="diminuirLetra(-2)">
+                A- Diminuir letras
+            </button>
+            <button onclick="aumentarEspacoLinhas()">
+                Aumentar espaçamento entra linhas
+            </button>
+            <button onclick="diminuirEspacoLinhas()">
+                Diminuir o espaçamento entra linhas
+            </button>
+
+        </div>
+        <h2>Deficiência auditiva ou surdez</h2>
+        <div class="container_direita">  
+            <img src="imagens/auditiva.jpg" alt="Criança com deficiência auditiva">
+            <div>
+                <p>A deficiência auditiva ou surdez afeta a capacidade de uma pessoa ouvir sons de forma parcial ou total. Na web, indivíduos com essa deficiência podem encontrar dificuldades em compreender conteúdos de áudio, como vídeos, podcasts, chamadas telefônicas e até reuniões de trabalho.
+                Vale destacar aqui que nem todas as pessoas com deficiência auditiva são surdas. Essa deficiência possui diferentes graus de perda auditiva e apenas aquelas com um grau severo normalmente se consideram surdas. Ah, mas tem um detalhe! O elemento cultural também tem um papel importantíssimo na identificação de uma pessoa como surda.</p>
+            </div>
+        </div>
+        <h2>Deficiência física ou limitação motora</h2>
+        <div class="container_direita">  
+            <div>
+                <p>A deficiência física ou limitação motora se refere a problemas que afetam a mobilidade e o controle dos movimentos do corpo. Pessoas com essa deficiência podem enfrentar dificuldades para usar dispositivos de entrada, conhecidos mais popularmente como teclados e mouses, ou até mesmo navegar e se locomover em um ambiente físico ou virtual.</p>
+            </div>
+            <img src="imagens/fisica.jpg" alt="Pessoa com deficiência física">
+        </div>
+        <h2>Deficiência visual ou cegueira</h2>
+        <div class="container_direita">  
+            <img src="imagens/visual.jpg" alt="homem con deficiência visual e cão guia">
+            <div>
+                <p>A deficiência visual ou cegueira engloba problemas que afetam a capacidade de uma pessoa de ver ou enxergar com clareza. Pessoas com deficiência visual podem precisar de recursos adaptados específicos para acessar informações em sites, como leitores e ampliadores de tela ou ferramentas de alto contraste.</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container_redes">
+            <a href="index.html"><img src="imagens/ins.png" alt="Icone instagram"></a>
+            <a href="index.html"><img src="imagens/face.png" alt="Icone facebook"></a>
+            <a href="index.html"><img src="imagens/in.png" alt="Icone linkedin"></a>
+        </div>
+        <p>© 2024 Juliana Aparecida Vecchi</p>
+    </footer>
+    <script src="script/acessibilidade.js"></script>
+</body>
+</html>

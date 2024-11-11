@@ -1,0 +1,43 @@
+main{
+    flex: 1 1 1;
+    padding: 25px;
+    line-height: 30px; 
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main img{
+    width: 400px;
+    border: solid 2px black;
+    border-radius: 15px;   
+    margin-top:30px;
+}
+
+.container_direita{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container_esquerda{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+h1{
+    font-size:35px;
+}
+
+h2{
+    font-size:30px;
+    margin: 30px;
+}
+p{
+    font-size:18px;
+    padding: 30px;
+    width: 800px;
+}

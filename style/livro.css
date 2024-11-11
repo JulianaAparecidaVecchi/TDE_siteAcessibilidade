@@ -1,0 +1,43 @@
+main{
+    flex: 1 1 1;
+    padding: 25px;
+    line-height: 30px; 
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    font-size:35px;
+}
+
+h3{
+    font-size:27px;
+}
+p{
+    font-size:18px;
+    font-weight:500;
+}
+
+main img{
+    width: 250px;
+    border: solid 2px black;
+    border-radius: 15px;   
+    margin-top:30px;
+}
+
+main img:hover{
+    width: 280px;
+    transition: 1s;
+    border: solid 2px black;
+    border-radius: 15px;   
+    margin-top:30px;
+}
+
+.container_livro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

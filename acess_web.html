@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/iconeacs.png" type="image/x-icon">
+    <link rel="stylesheet" href="style/componentes.css">
+    <link rel="stylesheet" href="style/acess_web.css">
+    <title>Acessibilidade</title>
+</head>
+<body>
+    <header>
+        <button onclick="abrirAcess()" id="container_acess"><img src="imagens/iconaces.png" alt="Icone da acessibilidade"> <h1 id="v">V</h1></button>
+        <div class="container_logo">
+            <a class="home" href="index.html">Home</a>
+        </div>
+        <div>
+            <ul>
+                <li><a href="tipos_aces.html">Tipos de acessibilidade</a></li>
+                <li><a href="rec_acess.html">Recursos de acessibilidade</a></li>
+                <li><a href="acess_web.html">Acessibilidade na Web</a></li>
+                <li><a href="livros_acess.html">Livros sobre acessibilidade</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div id="container_acess_aberto">
+            <button id="x" onclick="fecharAcess()">
+                X
+            </button>
+            <button onclick="aumentarLetra(2)">
+                A+
+                Aumentar letras
+            </button >
+            <button onclick="diminuirLetra(-2)">
+                A- Diminuir letras
+            </button>
+            <button onclick="aumentarEspacoLinhas()">
+                Aumentar espaçamento entra linhas
+            </button>
+            <button onclick="diminuirEspacoLinhas()">
+                Diminuir o espaçamento entra linhas
+            </button>
+
+        </div>
+        <h2>Ampliadores de tela</h2>
+        <div class="container_direita">  
+            <img src="imagens/ampliador.jpg" alt="Ampliador de tela">
+            <div>
+                <p>Os ampliadores de tela são ferramentas que aumentam o tamanho dos elementos visuais em um site, facilitando a visualização para pessoas com deficiência visual ou baixa visão. Esses recursos permitem que a pessoa usuária ajuste o zoom de acordo com suas necessidades individuais.</p>
+            </div>
+        </div>
+        <h2>Leitor de tela e ampliador de texto</h2>
+        <div class="container_direita">  
+            <div>
+                <p>Os leitores de tela são ferramentas que capturam informações apresentadas em forma de texto e transformam em uma resposta de áudio por meio de sintetizadores de voz. Eles fazem uma varredura e buscam essas informações que podem ser lidas para o usuário, possibilitando a navegação por menus, janelas e textos. 
+                Imprescindível para pessoas cegas e com diferentes deficiências visuais, hoje é possível encontrar esse recurso nativo em diferentes modelos de smartphones. 
+                
+                Os ampliadores de tela, por sua vez, são soluções que aumentam o tamanho de fontes e imagens na tela do computador para os usuários com baixa visão. Existem diferentes opções de ampliadores de tela gratuitos para os mais variados sistemas operacionais. </p>
+            </div>
+            <img src="imagens/leitor.jpg" alt="homem usando leitor de tela">
+        </div>
+        <h2>Ferramentas para geração de legenda em vídeos
+        </h2>
+        <div class="container_direita">  
+            <img src="imagens/legenda.png" alt="Imagem de um Vídeo legendado">
+            <div>
+                <p>As ferramentas para geração de legenda permitem que pessoas com deficiência auditiva ou surdez tenham acesso ao conteúdo de áudio presente em vídeos e outros conteúdos audiovisuais. Elas transcrevem o áudio em texto, exibindo as legendas de forma sincronizada com o vídeo.</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container_redes">
+            <a href="index.html"><img src="imagens/ins.png" alt="Icone instagram"></a>
+            <a href="index.html"><img src="imagens/face.png" alt="Icone facebook"></a>
+            <a href="index.html"><img src="imagens/in.png" alt="Icone linkedin"></a>
+        </div>
+        <p>© 2024 Juliana Aparecida Vecchi</p>
+    </footer>
+    <script src="script/acessibilidade.js"></script>
+</body>
+</html>

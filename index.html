@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/iconeacs.png" type="image/x-icon">
+    <link rel="stylesheet" href="style/componentes.css">
+    <link rel="stylesheet" href="style/home.css">
+    <title>Acessibilidade</title>
+</head>
+<body>
+    <header>
+        <button onclick="abrirAcess()" id="container_acess"><img src="imagens/iconaces.png" alt="Icone da acessibilidade"> <h1 id="v">V</h1></button>
+        <div class="container_logo">
+            <a class="home" href="index.html">Home</a>
+        </div>
+        <div>
+            <ul>
+                <li><a href="tipos_aces.html">Tipos de acessibilidade</a></li>
+                <li><a href="rec_acess.html">Recursos de acessibilidade</a></li>
+                <li><a href="acess_web.html">Acessibilidade na Web</a></li>
+                <li><a href="livros_acess.html">Livros sobre acessibilidade</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div id="container_acess_aberto">
+            <button id="x" onclick="fecharAcess()">
+                X
+            </button>
+            <button onclick="aumentarLetra(2)">
+                A+
+                Aumentar letras
+            </button >
+            <button onclick="diminuirLetra(-2)">
+                A- Diminuir letras
+            </button>
+            <button onclick="aumentarEspacoLinhas()">
+                Aumentar espaçamento entra linhas
+            </button>
+            <button onclick="diminuirEspacoLinhas()">
+                Diminuir o espaçamento entra linhas
+            </button>
+
+        </div>
+        <h1>O que é acessibilidade?</h1>
+        <h3>Definição</h3>
+        <p>Acessibilidade pode ser definida como a possibilidade e condição de alcance, percepção e entendimento para a utilização, em igualdade de oportunidades, com segurança e autonomia, do meio físico, do transporte, da informação e da comunicação, inclusive dos sistemas e tecnologias de informação e comunicação, bem como de outros serviços e instalações. Para as pessoas com deficiência e mobilidade reduzida, a acessibilidade possibilita uma vida independente e com participação plena em todos os seus aspectos; e para todas as pessoas, em diferentes contextos, pode proporcionar maior conforto, facilidade de uso, rapidez, satisfação, segurança e eficiência. (W3C Brasil).</p>
+        <div><img src="imagens/acessbanerpessoa.jpg" alt="Símbolo de pessoas com diferentes acessibilidades"></div>
+        
+        <h3>Importância da Acessibilidade na Sociedade</h3>
+        <p>A acessibilidade é fundamental para garantir uma sociedade inclusiva, onde todos, independentemente das suas capacidades, possam participar de maneira plena em atividades cotidianas, como estudar, trabalhar, se locomover e acessar informações.
+        Quando os ambientes e serviços são acessíveis, as pessoas com deficiências têm mais autonomia e liberdade, o que contribui para uma maior igualdade social e econômica. Além disso, a acessibilidade promove a inclusão, diminui a discriminação e enriquece a convivência e a diversidade cultural.
+        
+        A acessibilidade vai além das pessoas com deficiência; ela beneficia também idosos, pessoas com mobilidade reduzida, e até mesmo em situações temporárias (como pessoas com lesões ou em recuperação de cirurgias).</p>
+        <h3>História da Acessibilidade
+        </h3>
+        <p>A conscientização sobre a importância da acessibilidade cresceu ao longo dos anos, mas foi especialmente a partir do século XX que começaram a surgir leis e regulamentações para garantir direitos das pessoas com deficiência.</p>
+        <ul>
+            <li><strong>Anos 1950-1960:</strong> Surgiram os primeiros movimentos pelos direitos das pessoas com deficiência, com foco em eliminar barreiras arquitetônicas.</li>
+            <li><strong>Anos 1990:</strong> Foi um marco com a ADA (Americans with Disabilities Act) nos Estados Unidos, uma legislação importante que garantiu o direito de acesso a edifícios, transporte e comunicações para pessoas com deficiência.</li>
+            <li><strong>Anos 2000:</strong> Com a evolução da tecnologia, começou-se a pensar também na acessibilidade digital, criando diretrizes para websites e aplicativos acessíveis.</li>
+            <li><strong>2006:</strong> A Convenção sobre os Direitos das Pessoas com Deficiência da ONU foi adotada, enfatizando o direito à acessibilidade em todos os aspectos da vida, desde o ambiente físico até as tecnologias da informação.</li>
+        </ul>
+
+    </main>
+    <footer>
+        <div class="container_redes">
+            <a href="index.html"><img src="imagens/ins.png" alt="Icone instagram"></a>
+            <a href="index.html"><img src="imagens/face.png" alt="Icone facebook"></a>
+            <a href="index.html"><img src="imagens/in.png" alt="Icone linkedin"></a>
+        </div>
+        <p>© 2024 Juliana Aparecida Vecchi</p>
+    </footer>
+    <script src="script/acessibilidade.js"></script>
+</body>
+</html>

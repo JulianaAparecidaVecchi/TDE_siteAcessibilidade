@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/iconeacs.png" type="image/x-icon">
+    <link rel="stylesheet" href="style/componentes.css">
+    <link rel="stylesheet" href="style/recurso.css">
+    <title>Acessibilidade</title>
+</head>
+<body>
+    <header>
+        <button onclick="abrirAcess()" id="container_acess"><img src="imagens/iconaces.png" alt="Icone da acessibilidade"> <h1 id="v">V</h1></button>
+        <div class="container_logo">
+            <a class="home" href="index.html">Home</a>
+        </div>
+        <div>
+            <ul>
+                <li><a href="tipos_aces.html">Tipos de acessibilidade</a></li>
+                <li><a href="rec_acess.html">Recursos de acessibilidade</a></li>
+                <li><a href="acess_web.html">Acessibilidade na Web</a></li>
+                <li><a href="livros_acess.html">Livros sobre acessibilidade</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div id="container_acess_aberto">
+            <button id="x" onclick="fecharAcess()">
+                X
+            </button>
+            <button onclick="aumentarLetra(2)">
+                A+
+                Aumentar letras
+            </button >
+            <button onclick="diminuirLetra(-2)">
+                A- Diminuir letras
+            </button>
+            <button onclick="aumentarEspacoLinhas()">
+                Aumentar espaçamento entra linhas
+            </button>
+            <button onclick="diminuirEspacoLinhas()">
+                Diminuir o espaçamento entra linhas
+            </button>
+
+        </div>
+        <h2>Piso tátil</h2>
+        <div class="container_direita">
+            <div>
+                <p>Esse piso pode não fazer muita diferença para pessoas videntes, mas para pessoas com deficiência visual e baixa visão ele representa independência na locomoção. Piso tátil, piso podotátil, superfície tátil ou pavimento tátil são faixas com relevos aplicadas no chão que auxiliam na locomoção e compreensão de onde se está circulando.
+                Existem dois tipos de piso tátil que são o de alerta, formado por pequenas esferas e que tem como função avisar sobre possíveis obstáculos que estejam pelo percurso, como escadas, rampas, elevadores e calçadas. E o direcional que por meio de uma linha contínua orienta o caminho correto e mais prático para as pessoas seguirem. Ambos podem ser percebidos com o auxílio de bengalas. </p>
+            </div>
+            <img src="imagens/piso.jpg" alt="Piso tátil ">
+        </div>
+        <h2>Rampas de acesso</h2>
+        <div class="container_esquerda">
+            <img src="imagens/rampa.jpg" alt="Rampa de acesso">
+            <div>
+                <p>As rampas de acesso são adaptações em locais públicos e privados que auxiliam na circulação de pessoas que utilizam cadeiras de rodas, possuem mobilidade reduzida ou qualquer questão física que as impossibilitem de subirem escadas, por exemplo.
+                Elas também são comumente encontradas em calçadas e lugares que necessitem de deslocamento em diferentes níveis, como em estações de metrô. 
+                
+                Existem alguns parâmetros mínimos para a instalação como inclinação, os desníveis a serem vencidos e o número máximo de segmentos. Estes parâmetros podem ser encontrados na norma brasileira ABNT NBR 9050 que diz respeito à acessibilidade a edificações, mobiliários, espaços e equipamentos urbanos. </p>
+            </div>
+
+        </div>
+        <h2>Libras</h2>
+        <div class="container_direita">  
+            <div>
+                <p>Segundo a Federação Mundial dos Surdos, 80% das pessoas surdas no mundo não são fluentes nas línguas escritas e dependem das Línguas de Sinais para obter informação. Essa é a figura que também encontramos aqui no Brasil.
+                A Libras é a língua materna da maioria das pessoas surdas. Além de ser uma forma de comunicação é muitas vezes uma expressão cultural, uma identidade dessas pessoas. A Libras é reconhecida como idioma em nosso país desde 2002 por meio da Lei nº 10.436.
+                Respeitar a forma como as pessoas querem se comunicar e tornar os ambientes em que elas estão acessíveis faz toda a diferença. Por isso, é cada vez mais comum vermos intérpretes de Libras em eventos, comerciais e programas de TV. </p>
+            </div>
+            <img src="imagens/libra.jpg" alt="Pessoas conversando em libras">
+        </div>
+    </main>
+    <footer>
+        <div class="container_redes">
+            <a href="index.html"><img src="imagens/ins.png" alt="Icone instagram"></a>
+            <a href="index.html"><img src="imagens/face.png" alt="Icone facebook"></a>
+            <a href="index.html"><img src="imagens/in.png" alt="Icone linkedin"></a>
+        </div>
+        <p>© 2024 Juliana Aparecida Vecchi</p>
+    </footer>
+    <script src="script/acessibilidade.js"></script>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/iconeacs.png" type="image/x-icon">
+    <link rel="stylesheet" href="style/componentes.css">
+    <link rel="stylesheet" href="style/livro.css">
+    <title>Acessibilidade</title>
+</head>
+<body>
+    <header>
+        <button onclick="abrirAcess()" id="container_acess"><img src="imagens/iconaces.png" alt="Icone da acessibilidade"> <h1 id="v">V</h1></button>
+        <div class="container_logo">
+            <a class="home" href="index.html">Home</a>
+        </div>
+        <div>
+            <ul>
+                <li><a href="tipos_aces.html">Tipos de acessibilidade</a></li>
+                <li><a href="rec_acess.html">Recursos de acessibilidade</a></li>
+                <li><a href="acess_web.html">Acessibilidade na Web</a></li>
+                <li><a href="livros_acess.html">Livros sobre acessibilidade</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div id="container_acess_aberto">
+            <button id="x" onclick="fecharAcess()">
+                X
+            </button>
+            <button onclick="aumentarLetra(2)">
+                A+
+                Aumentar letras
+            </button >
+            <button onclick="diminuirLetra(-2)">
+                A- Diminuir letras
+            </button>
+            <button onclick="aumentarEspacoLinhas()">
+                Aumentar espaçamento entra linhas
+            </button>
+            <button onclick="diminuirEspacoLinhas()">
+                Diminuir o espaçamento entra linhas
+            </button>
+
+        </div>
+        <h1>Livros sobre acessibilidade</h1>
+        <div class="container_livro">
+            <a target="_blank" href="https://www.amazon.com.br/Ressignificando-Defici%C3%AAncia-Abordagem-Pr%C3%A1ticas-Inclusivas/dp/8580553423/ref=sr_1_1?adgrpid=108097161118&dib=eyJ2IjoiMSJ9.lvTBEOrmHG-vQXUfuucFRIe3hR6RChWt0pcGeyv3f1A.tYjEi2hniPF4yzTWbd8k1dUdOcPteYjuUAy_ZaEAeTM&dib_tag=se&hvadid=457949245191&hvdev=c&hvlocphy=9102003&hvnetw=g&hvqmt=e&hvrand=7475374626652148807&hvtargid=kwd-1162182016941&hydadcr=5687_11235287&keywords=livro+ressignificando+a+defici%C3%AAncia&qid=1731208679&sr=8-1&ufe=app_do%3Aamzn1.fos.6d798eae-cadf-45de-946a-f477d47705b9"><img src="imagens/livro1.jpg" alt=""></a>
+            <p>Ressignificando a Deficiência: Da Abordagem Social às Práticas Inclusivas na Escola</p>
+        </div>
+        <div class="container_livro">
+            <a target="_blank" href="https://www.amazon.com.br/diferen%C3%A7a-invis%C3%ADvel-Mademoiselle-Caroline/dp/8582863985"><img src="imagens/livro2.webp" alt=""></a>
+            <p>A diferença invisível</p>
+        </div>
+        <div class="container_livro">
+            <a target="_blank" href="https://www.amazon.com.br/Acessibilidade-Pr%C3%A1tico-Projeto-Adapta%C3%A7%C3%B5es-Edifica%C3%A7%C3%B5es/dp/8572662413"><img src="imagens/livro3.webp" alt=""></a>
+            <p>Acessibilidade. Guia Prático Para o Projeto de Adaptações e de Novas Edificações </p>
+        </div>
+        
+    </main>
+    <footer>
+        <div class="container_redes">
+            <a href="index.html"><img src="imagens/ins.png" alt="Icone instagram"></a>
+            <a href="index.html"><img src="imagens/face.png" alt="Icone facebook"></a>
+            <a href="index.html"><img src="imagens/in.png" alt="Icone linkedin"></a>
+        </div>
+        <p>© 2024 Juliana Aparecida Vecchi</p>
+    </footer>
+    <script src="script/acessibilidade.js"></script>
+</body>
+</html>
